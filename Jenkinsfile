@@ -1,4 +1,4 @@
-try{
+
     node{
     stage('code checkout from github'){
         echo "Fetching code from git repo to jenkins directory"
@@ -9,7 +9,4 @@ try{
     zip zipFile: 'Test.zip', dir:'\\workspace'
     echo "END - ZIP"
     }
-    } 
-finally{
-}
-}
+    
