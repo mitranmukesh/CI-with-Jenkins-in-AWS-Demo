@@ -9,5 +9,5 @@ try{
     zip zipFile: 'Test.zip', dir:'\\workspace'
     echo "END - ZIP"
     }
-    
+    } 
 }
