@@ -10,4 +10,7 @@ try{
     echo "END - ZIP"
     }
     } 
+    catch(Exception error){}
+finally{
+}
 }
