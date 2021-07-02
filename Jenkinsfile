@@ -6,7 +6,7 @@
     }
     stage('zip package'){
     echo "ZIP"
-    zip zipFile: 'Test.zip', dir:'\\var\\lib\\jenkins\\workspace\\Test'
+    zip zipFile: 'Test.zip'
     echo "END - ZIP"
     }
     } 
